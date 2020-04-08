@@ -1,0 +1,12 @@
+.button-light {
+    border-color: #131aa1;
+}
+
+.button-light:hover {
+    background-color: #131aa1;
+    color: #fff;
+}
+
+.button {
+    text-transform: none;
+}
