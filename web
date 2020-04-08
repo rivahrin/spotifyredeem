@@ -1,0 +1,52 @@
+<body data-gr-c-s-loaded="true" class="vsc-initialized"><section style="margin-top: 25px;">
+    <div class="container">
+        <div class="section-intro text-center">
+            <h2 class="section-intro__title">Upgrading your account</h2>
+            <p><b>Step 1 )</b> Order your key and check your email for the confirmation email of your order.</p>
+            <p><b>Step 2 )</b> Grab your purchased goods key from that email.</p>
+            <p><b>Step 3 )</b> Paste in the key, choose your desired country and press <b>upgrade</b>.</p>
+            <p><b>Step 4 )</b> Copy the address send to you under the upgrade button and click the invite link.</p>
+            <p><b>Step 5 )</b> Pick manual address after clicking the link and paste in the address.</p><br>
+
+            <h2 class="section-intro__title">Redeem your key</h2>
+            <label for="key"><b>Key</b></label>
+            <input id="key" class="form-control" type="text" name="key" placeholder="xxxx-xxxx-xxxx-xxxx-xxxx"><br>
+
+            <label for="country"><b>Country</b></label>
+            <select id="country" name="country" class="form-control">
+            <option value="US"> United States (1974)</option><option value="UK"> Great Britain (565)</option><option value="DE"> Germany (1405)</option><option value="CA"> Canada (1887)</option><option value="AU"> Australia (2673)</option><option value="IT"> Italy (146)</option><option value="NZ"> New Zealand (346)</option><option value="MX"> Mexico (1768)</option><option value="BE"> Belgium (23)</option><option value="FR"> France (1003)</option><option value="ID"> Indonesia (9)</option><option value="SG"> Singapore (60)</option><option value="BR"> Brazil (1685)</option><option value="MY"> Malaysia (51)</option><option value="PT"> Portugal (16)</option><option value="DK"> Denmark (135)</option><option value="NL"> Netherlands (733)</option><option value="ES"> Spain (347)</option><option value="SE"> Sweden (331)</option><option value="NO"> Norway (847)</option><option value="TR"> Turkey (322)</option><option value="CR"> Costa Rica (122)</option><option value="PA"> Panama (124)</option><option value="IS"> Iceland (83)</option><option value="AR"> Argentina (1592)</option><option value="AT"> Austria (130)</option><option value="CZ"> Czech Republic (113)</option><option value="CH"> Switzerland (241)</option><option value="FI"> Finland (70)</option><option value="IE"> Ireland (119)</option><option value="TH"> Thailand (2)</option><option value="PH"> Philippines (175)</option><option value="CL"> Chile (1499)</option><option value="HK"> Hong Kong (42)</option><option value="JP"> Japan (15)</option><option value="UY"> Uruguay (72)</option><option value="TW"> Taiwan (109)</option><option value="PL"> Poland (55)</option><option value="HU"> Hungary (95)</option><option value="BG"> Bulgaria (0)</option><option value="DO"> Dominican Republic (206)</option><option value="LU"> Luxembourg (16)</option></select><br>
+
+            <button id="redeem" class="button button-light">Upgrade</button>
+            <div style="padding-top: 15px;" id="result_text"></div>
+            <div id="result_link"></div>
+            <div id="result_address"></div>
+
+            <h2 style="padding-top: 50px;" class="section-intro__title">Check here if your key is eligible for a replacement</h2>
+
+            <input id="replacekey" class="form-control" type="text" placeholder="xxxx-xxxx-xxxx-xxxx-xxxx" name="key"><br>
+
+            <button id="replaceButton" class="button button-light">Replace</button>
+
+            <div style="padding-top: 15px;" id="result_text_replace"></div>
+            <div id="result_link_replace"></div>
+            <div id="result_address_replace"></div>
+
+            <h2 style="padding-top: 50px;" class="section-intro__title">View your key information</h2>
+            <label for="lookup_key"><b>Key</b></label>
+            <input id="lookup_key" class="form-control" type="text" name="lookup_key" placeholder="xxxx-xxxx-xxxx-xxxx-xxxx"><br>
+            <button id="lookup" class="button button-light">View</button>
+
+            <div style="padding-top: 15px;" id="result_text_info"></div>
+            <div id="result_link_info"></div>
+            <div id="result_address_info"></div>
+            <br>
+        </div>
+    </div>
+</section>
+<script src="./vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="./vendors/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery.ajaxchimp.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/blank-redeem.js?v=9"></script>
+<script src="./js/blank-info.js?v=5"></script>
+<script src="./js/blank-replace.js?v=5"></script></body>
